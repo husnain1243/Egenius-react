@@ -10,7 +10,7 @@ export const Portfolio = () =>
 
         <div class="wrapper">
 
-            <div class="main-section-potfolio py-4 py-lg-5">
+            {/* <div class="main-section-potfolio py-4 py-lg-5">
                 <div class="container py-lg-5">
                     <div class="row py-lg-5 position-relative section-portfolio-row">
                         <div class="col-12 col-lg-7">
@@ -74,13 +74,13 @@ export const Portfolio = () =>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div class="portfolio-section bg-dark py-4 py-lg-5">
                 <div class="container">
                     <div class="row py-4 py-lg-5">
                         <div class="col-12 col-lg-6">
-                            <div class="image-container2 overflow-hidden">
+                            <div class="image-container2- overflow-hidden">
                                 <img src={portfolio2} width="100%" height="100%" alt="container-image" class="img-fluid d-block m-auto"/>
                             </div>
                         </div>

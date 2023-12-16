@@ -15,6 +15,11 @@ export const Footer = () => {
                         <FooterWidget1/>
                         <FooterSocials/>
                     </div>
+                    <div className='row'>
+                        <div className='col-12 col-md-4'>
+                            <span style={{fontSize: "18px"}}>EGENIUS.co @ 2022</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>

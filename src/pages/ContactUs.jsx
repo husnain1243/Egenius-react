@@ -11,11 +11,11 @@ export const ContactUs = () => {
                 <div className="container">
                     <div className="contactform-container d-flex justify-content-center">
                         <div className="row">
-                            <div class="col-12 col-lg-6">
+                            <div className="col-12 col-xl-6">
                                 <ContactUsDetails/>
                             </div>
 
-                            <div className="col-12 col-lg-6">
+                            <div className="col-12 col-xl-6">
                                 <ContactUsForm/>
                             </div>
                         </div>

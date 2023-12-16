@@ -26,12 +26,12 @@ export const FooterWidget2 = () => {
       ];
       const [routeDate] = useState(Route);
     return(
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
+        <div className="col-12 col-md-6 col-lg-4 col-xl-5 mb-4">
             <div className="" style={{width: "110px"}}>
                 <img src={Logo} alt="footer-image" className="d-block image-fluid w-100 h-100"/>
             </div>
             <div className="py-4">
-                <ul className="list-unstyled d-flex flex-column flex-md-row gap-3 m-0"  style={{fontSize: "18px"}}>
+                <ul className="list-unstyled d-flex flex-column flex-md-row flex-wrap gap-3 m-0"  style={{fontSize: "18px"}}>
                     {routeDate.map(({ name, path }, index) => {
                         return (
                             <li key={index}>
@@ -40,9 +40,6 @@ export const FooterWidget2 = () => {
                         );
                     })}
                 </ul>
-            </div>
-            <div className="">
-                <span style={{fontSize: "18px"}}>EGENIUS.co @ 2015</span>
             </div>
         </div>
     )
