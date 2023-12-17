@@ -19,8 +19,8 @@ export const Navbar = () => {
       name: "Services",
     },
     {
-      path: "/blog",
-      name: "Blog",
+      path: "/projects",
+      name: "Projects",
     },
     {
       path: "/contactus",

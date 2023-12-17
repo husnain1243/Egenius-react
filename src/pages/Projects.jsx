@@ -1,13 +1,13 @@
 import { BlogCards } from "../component/Cards/BlogCards"
 
-export const Blog = () => {
+export const Projects = () => {
     return(
         <div className="blog-wrapper">
 
             <div className="blog-banner d-flex flex-column justify-content-center bg-dark text-center" style={{height:"300px"}}>
                 <div className="container">
                     <div className="banner-container">
-                        <h1 className="text-start">Our Blogs</h1>
+                        <h1 className="text-start">Our Projects</h1>
                     </div>
                 </div>
             </div>

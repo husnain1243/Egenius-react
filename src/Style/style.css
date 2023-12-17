@@ -9,6 +9,9 @@ p , a , li , span , h3 , h2 , h1{
     text-decoration: none;
     list-style: none;
 }
+h1{
+    font-size: 50px;
+}
 a:hover{
     color: #e8bd81dc !important;
     text-decoration: underline !important;
@@ -37,7 +40,7 @@ a:hover{
 }
 
 #home-page #carouselExampleCaptions img{
-    height: 250px !important;
+    height: 300px !important;
 }
 
 #home-page .homeaccordian .accordion-button:not(.collapsed)::after {
@@ -106,9 +109,6 @@ a:hover{
     overflow: hidden;
     height: 100%;
     width: 100%;
-}
-#our-service h1{
-    font-size: 70px;
 }
 #our-service span{
     display: block;
@@ -212,9 +212,6 @@ a:hover{
 #portfolio .image-container{
     margin-bottom: -200px;
 }
-#portfolio h1{
-    font-size: 70px;
-}
 #portfolio .image-container{
     border-radius: 50%;
     overflow: hidden;
@@ -284,7 +281,7 @@ a:hover{
 }
 @media only screen and (min-width: 991.98px){
     h1{
-        font-size: 60px;
+        font-size: 70px;
     }
     #home-page #carouselExampleCaptions img{
         height: 700px !important;

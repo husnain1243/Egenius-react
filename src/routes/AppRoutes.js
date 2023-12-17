@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "../pages/Home";
 import { Services } from "../pages/Services"
-import { Blog } from "../pages/Blog"
+import { Projects } from "../pages/Projects"
 import { ContactUs } from "../pages/ContactUs"
 import { Portfolio} from "../pages/Portfolio"
 
@@ -18,8 +18,8 @@ export const AppRoutes = () => {
         <Route path="/services" element={<Services/>}>
           Services
         </Route>
-        <Route path="/blog" element={<Blog/>}>
-          Blog
+        <Route path="/projects" element={<Projects/>}>
+          Projects
         </Route>
         <Route path="/contactus" element={<ContactUs/>}>
           Contact Us
