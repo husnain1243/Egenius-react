@@ -5,7 +5,7 @@ export const AdCards = () => {
     return(
         <div className="Adcard-container row m-auto pt-4 pt-lg-5 d-flex justify-content-center justify-content-lg-start">
             {products.slice(0, 4).map((data, index) => (
-                <div className='col-12 col-md-6 col-lg-4 col-xl-3 mb-3'>
+                <div className='col-12 col-md-6 col-lg-4 mb-3'>
                     <a href={data.link} className='text-decoration-none'>
                         <div key={index} className="card overflow-hidden text-center rounded bg-transparent text-dark">
                             <div style={{ height: "250px"}}>

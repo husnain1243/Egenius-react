@@ -14,6 +14,10 @@ a:hover{
     text-decoration: underline !important;
 }
 
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #e8bd81dc;
+}
 .form-button{
     color: #fff;
     background-color: #e8bd81dc;
@@ -76,6 +80,25 @@ a:hover{
 #home-page .master-team-section .master-image-container:hover .master-image-data{
     display: flex;
 }
+#home-page .Adcard-container a
+{
+    text-decoration: none !important;
+}
+.card:hover{
+    border-color: #e8bd81dc;
+}
+.card .btn-primary{
+    border: 1px solid #c5c5c5;
+}
+#home-page .Adcard-container .card:hover a,
+#home-page .Adcard-container .card:hover svg{
+    color: #e8bd81dc !important;
+}
+#home-page .Adcard-container .card a:hover{
+    text-decoration: underline !important;
+}
+
+
 /* Our Service Style */
 
 #our-service .Service-wrapper{
@@ -84,50 +107,50 @@ a:hover{
     height: 100%;
     width: 100%;
 }
-#our-service .our-service h1{
+#our-service h1{
     font-size: 70px;
 }
-#our-service .our-service span{
+#our-service span{
     display: block;
     font-size: 24px;
 }
-#our-service .our-service a , .our-service li{
+#our-service a , #our-service li{
     text-decoration: none;
     list-style: none;
     color: #fff;
 }
-#our-service .our-service a:hover{
+#our-service a:hover{
   text-decoration: underline;
   color: #e8bd81dc;
 }
-#our-service .our-service .banner-section{
+#our-service .banner-section{
     height: 300px;
     background-color: #212529;
 }
-#our-service .our-service .card a{
+#our-service .card a{
     background-color: transparent;
     border: 1px solid #fff;
 }
-#our-service .our-service .card:hover a{
+#our-service .card:hover a{
     border: 1px solid #e8bd81dc;
     color: #e8bd81dc;
 }
-#our-service .our-service .card a:hover{
+#our-service .card a:hover{
     background-color: #e8bd81dc;
     color: #fff !important;
 }
-#our-service .our-service .card:hover{
+#our-service .card:hover{
     border: 1px solid #e8bd81dc;
 }
-#our-service .our-service .form-control{
+#our-service .form-control{
     border: 1px solid #e8bd81dc;
     border-radius: 0px;
     color: #e8bd81dc;
 }
-#our-service .our-service .form-control input{
+#our-service .form-control input{
     color: #e8bd81dc;
 }
-#our-service .our-service .form-control:focus{
+#our-service .form-control:focus{
     box-shadow: none;
     border: 1px solid #e8bd81dc;
     color: #e8bd81dc;
@@ -206,6 +229,22 @@ a:hover{
     background-color: #fff;
 }
 
+/* blog Style */
+
+.Blog-container .blog-card-container a
+{
+    text-decoration: none !important;
+}
+.Blog-container .blog-card-container .card:hover{
+    border-color: #e8bd81dc;
+}
+.Blog-container .blog-card-container .card:hover a,
+.Blog-container .blog-card-container .card:hover svg{
+    color: #e8bd81dc !important;
+}
+.Blog-container .blog-card-container .card a:hover{
+    text-decoration: underline !important;
+}
 /* footer Style */
 
 #footer a .icons
