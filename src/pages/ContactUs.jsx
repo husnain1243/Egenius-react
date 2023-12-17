@@ -1,11 +1,10 @@
 import { ContactUsDetails } from "../component/ContactUsDetails/ContactUsDetails";
-import '../Style/ContactUs.css'
 import { ContactUsForm } from "../component/ContactUsDetails/ContactUsForm";
 
 export const ContactUs = () => {
 
     return(
-        <div className="contact-wrapper">
+        <div id="contact-us" className="contact-wrapper">
             
             <div className="contactform-section py-4 py-lg-5">
                 <div className="container">

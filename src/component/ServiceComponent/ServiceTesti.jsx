@@ -1,12 +1,12 @@
-import { ServiceCarousel } from "../../component/Sliders/ServiceCarousel"
+import { Testimonials } from "../Testimonial/Testimonials"
 
 export const ServiceTesti = () => {
     return(
-        <div class="testi-section py-lg-5 bg-light">
+        <div class="testi-section bg-light">
             <div class="container">
-                <div class="row py-4">
+                <div class="row">
                     <div class="col-12">
-                        <ServiceCarousel/>
+                        <Testimonials/>
                     </div>
                 </div>
             </div>

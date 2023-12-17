@@ -1,23 +1,20 @@
 import { Advisory } from "../component/Advisory/Advisory";
+import { HomeAccordian } from "../component/HomeComponent/HomeAccordian";
 import { HomeService } from "../component/HomeComponent/HomeService";
-
-import "../Style/Home.css"
+import { HomeSlider } from "../component/HomeComponent/HomeSlider";
+import { MasterTeam } from "../component/HomeComponent/MasterTeam";
+import { Testimonials } from "../component/Testimonial/Testimonials";
 
 export const Home = () => {
   return (
 
-    <div className="Home-wrapper">
-
-      <div className="home-banner d-flex flex-column justify-content-center bg-dark text-center" style={{height:"400px"}}>
-          <div className="container">
-              <div className="banner-container">
-                  <h1>Home</h1>
-              </div>
-          </div>
-      </div>
-
+    <div id="home-page" className="Home-wrapper">
+      <HomeSlider/>
       <Advisory/>
+      <MasterTeam/>
       <HomeService/>
+      <HomeAccordian/>
+      <Testimonials/>
     </div>
 
   );

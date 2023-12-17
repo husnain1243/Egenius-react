@@ -2,13 +2,11 @@ import portfolio1 from "../asserts/portfolio-2-image1.jpeg"
 import portfolio2 from "../asserts/portfolio-2-image2.png"
 import portfolio3 from "../asserts/portfolio3-image.jpeg"
 
-import "../Style/Potfolio.css"
-
 export const Portfolio = () => 
 {
     return(
 
-        <div class="wrapper">
+        <div id="portfolio" class="wrapper">
 
             {/* <div class="main-section-potfolio py-4 py-lg-5">
                 <div class="container py-lg-5">

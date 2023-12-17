@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+p , a , li , span , h3 , h2 , h1{
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+a:hover{
+    color: #e8bd81dc !important;
+    text-decoration: underline !important;
+}
+
+.form-button{
+    color: #fff;
+    background-color: #e8bd81dc;
+    border: 1px solid #e8bd81dc;
+    padding: 15px 0px;
+}
+.form-button:hover{
+    background-color: transparent;
+    border: 1px solid #e8bd81dc;
+    color: #e8bd81dc;
+}
+
+/* Home Page */
+
+#home-page .Service-Home-Container .card:hover a{
+    border: 1px solid #e8bd81dc;
+}
+
+#home-page #carouselExampleCaptions img{
+    height: 250px !important;
+}
+
+#home-page .homeaccordian .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "-";
+    color: #fff;
+    transform: none;
+    font-size: 22px;
+}
+#home-page .homeaccordian .accordion-button::after {
+    background-image: none;
+    content: "+";
+    transform: none;
+    color: #fff;
+    font-size: 22px;
+}
+#home-page .homeaccordian .accordion-button:hover{
+    border: 1px solid #e8bd81dc !important;
+}
+#home-page .homeaccordian code{
+    color: #e8bd81dc;
+}
+#home-page .homeaccordian .accordion-button:focus {
+    border-color: #e8bd81dc !important;
+    box-shadow: none !important;
+}
+
+/* masterTeam Css */
+#home-page .master-team-section .master-image-container .master-image-data {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0b0a089c;
+    display: none;
+}
+#home-page .master-team-section .master-image-container:hover .master-image-data{
+    display: flex;
+}
+/* Our Service Style */
+
+#our-service .Service-wrapper{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+#our-service .our-service h1{
+    font-size: 70px;
+}
+#our-service .our-service span{
+    display: block;
+    font-size: 24px;
+}
+#our-service .our-service a , .our-service li{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+#our-service .our-service a:hover{
+  text-decoration: underline;
+  color: #e8bd81dc;
+}
+#our-service .our-service .banner-section{
+    height: 300px;
+    background-color: #212529;
+}
+#our-service .our-service .card a{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+#our-service .our-service .card:hover a{
+    border: 1px solid #e8bd81dc;
+    color: #e8bd81dc;
+}
+#our-service .our-service .card a:hover{
+    background-color: #e8bd81dc;
+    color: #fff !important;
+}
+#our-service .our-service .card:hover{
+    border: 1px solid #e8bd81dc;
+}
+#our-service .our-service .form-control{
+    border: 1px solid #e8bd81dc;
+    border-radius: 0px;
+    color: #e8bd81dc;
+}
+#our-service .our-service .form-control input{
+    color: #e8bd81dc;
+}
+#our-service .our-service .form-control:focus{
+    box-shadow: none;
+    border: 1px solid #e8bd81dc;
+    color: #e8bd81dc;
+}
+
+/* Contact Style */
+
+#contact-us .contactform-section{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../asserts/contact-us-2-bg.png);
+    background-position:center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-us span{
+    display: block;
+    font-size: 24px;
+}
+
+#contact-us .form-control{
+    border-radius: 0px !important;
+}
+#contact-us .card{
+    background-color: #2125298a;
+    border-radius: 20px;
+}
+#contact-us .card:hover{
+    border: 1px solid #e8bd81dc;
+}
+#contact-us .card:hover a{
+    color: #e8bd81dc;
+}
+#contact-us a:hover{
+    text-decoration: underline;
+    color: #e8bd81dc !important;
+}
+
+/* Portfolio */
+
+#portfolio .card-container{
+    background-color: #0000008e;
+    border-radius: 20px;
+    color: #fff;
+    padding: 100px 50px;
+    width: 100%;
+    margin-top: -200px;
+}
+#portfolio .card-container:hover{
+    border: 1px solid #e8bd81dc;
+}
+#portfolio .card-container:hover a{
+    color: #e8bd81dc;
+}
+#portfolio .image-container{
+    margin-bottom: -200px;
+}
+#portfolio h1{
+    font-size: 70px;
+}
+#portfolio .image-container{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100%;
+}
+#portfolio .card-portfolio1{
+    background-color: #e8bd81dc;
+    color: #fff;
+}
+#portfolio .card-portfolio-aboout{
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+/* footer Style */
+
+#footer a .icons
+{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+#footer ul a p:hover{
+    color: #e8bd81dc;
+}
+#footer a .icons svg{
+    font-size: 25px;
+}
+#footer a .icons:hover
+{
+    border: 1px solid #e8bd81dc;
+}
+
+@media only screen and (min-width: 767.98px){
+    #portfolio .section-portfolio-row::before{
+        content: "";
+        background-color: #e8bd81dc;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        top: 0;
+        right: 0;
+    }
+}
+@media only screen and (min-width: 767.98px){
+    #portfolio .image-container{
+        width: 650px;
+        height: 600px;
+    }
+}
+@media only screen and (min-width: 991.98px){
+    h1{
+        font-size: 60px;
+    }
+    #home-page #carouselExampleCaptions img{
+        height: 700px !important;
+    }
+    #home-page .master-team-section .master-image-container img{
+        height: 350px !important;
+        width: 300px !important;
+    }
+    #home-page .master-team-section h3{
+        font-size: 3rem;
+        line-height: 1.1;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+    #portfolio .card-portfolio-aboout{
+        border: 1px solid #fff;
+        background-color: #fff;
+        padding: 80px 50px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 40%;
+        top: 48%;
+    }
+    #portfolio .card-portfolio-aboout p{
+        margin-bottom: 50px;
+    }
+    #portfolio .button-portfolio{
+        background-color: #e8bd81dc;
+        padding: 20px 40px;
+        border-radius: 30px;
+    }
+    #portfolio .image-container2{
+        margin-top: -200px;
+    }
+}
+@media only screen and (min-width: 1219.98px){
+    #portfolio .image-container{
+        width: 750px;
+        height: 700px;
+    }   
+}

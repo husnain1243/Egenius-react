@@ -1,5 +1,4 @@
 import {products} from '../Items/BlogItems'
-import "../../Style/Blog.css"
 
 export const BlogCards = () => {
     

@@ -70,4 +70,13 @@ export const products = [
         link:'https://husnain1243.github.io/love-cupping/',
         price: 40 
     },
+    {
+        id:'6',
+        image: image7, 
+        name: 'Love Cups', 
+        author: 'Husnain',
+        description: 'landing Page as discuss with the client.',
+        link:'https://husnain1243.github.io/love-cupping/',
+        price: 40 
+    },
   ];

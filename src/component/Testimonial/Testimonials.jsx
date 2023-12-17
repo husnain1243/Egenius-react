@@ -1,8 +1,8 @@
 import Carousel1 from "../../asserts/carousel1.webp"
 
-export const ServiceCarousel = () => {
+export const Testimonials = () => {
     return(
-        <div id="" class="text-center">
+        <div id="Testimonials" class="text-center py-4 py-lg-4">
             <div class="">
                 <div class="">
                     <img src={Carousel1} class="rounded-circle mb-4"/>
