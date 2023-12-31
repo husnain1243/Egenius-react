@@ -5,10 +5,10 @@ import image4 from "../../asserts/masterteam4.jpeg";
 
 export const MasterTeam = () => {
     return(
-        <div class="master-team-section bg-dark py-4 py-lg-5">
-            <div class="container">
-                <div class="master-team-container">
-                    <div class="row">
+        <div className="master-team-section bg-dark py-4 py-lg-5">
+            <div className="container">
+                <div className="master-team-container">
+                    <div className="row">
                         <div class="col-12 col-lg-6">
                             <div class="row">
                                 <div class="col-12 col-lg-6 mb-3">

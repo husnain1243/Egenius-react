@@ -8,7 +8,7 @@ export const ContactUsForm = () => {
         LastName: 'doe',
         Phone: '033323423232',
         Email: 'test@gmail.com',
-        Message:"antyhtin"
+        Message:"Related Message"
     };
     const [formdata, setFormData] = useState(initialUser);
     const [Fname, setFName] = useState(formdata.FirstName);
@@ -33,17 +33,17 @@ export const ContactUsForm = () => {
     };
 
     return(
-        <div class="contact-wrap w-100 p-md-5 p-4 rounded">
+        <div className="contact-wrap w-100 p-md-5 p-4 rounded login-box">
             <form  id="contactForm" onSubmit={handleSaveClick} >
                 <div className="row">
 
                     <div className="col-md-6">
-                        <div className="form-group">
+                        <div className="form-group ">
                             <label className="text-white">First NAME</label>
                             <input
                                 type="text"
                                 placeholder="First Name" 
-                                class="form-control mb-2" id="FName"
+                                className="form-control mb-2" id="FName"
                                 value={Fname}
                                 onChange={(e) => setFName(e.target.value)}
                             />
@@ -56,7 +56,7 @@ export const ContactUsForm = () => {
                             <input
                                 type="text"
                                 placeholder="Last Name" 
-                                class="form-control mb-2" id="LName"
+                                className="form-control mb-2" id="LName"
                                 value={Lname}
                                 onChange={(e) => setLName(e.target.value)}
                             />
@@ -69,8 +69,9 @@ export const ContactUsForm = () => {
                                 <input
                                 type="phone"
                                 placeholder="***********" 
-                                class="form-control mb-2" id="Email"
+                                className="form-control mb-2" id="Email"
                                 value={Phone}
+                                autoComplete="123456789"
                                 onChange={(e) => setPhoneNumber(e.target.value)}
                             />
                         </div>
@@ -82,34 +83,42 @@ export const ContactUsForm = () => {
                                 <input
                                 type="email"
                                 placeholder="test@gmail.com" 
-                                class="form-control mb-2" id="Address"
+                                className="form-control mb-2" id="Address"
                                 value={Email}
+                                autoComplete="@gmail.com"
                                 onChange={(e) => setEmail(e.target.value)}
                             />
                         </div>
                     </div>
 
-                    <div className="col-md-12 mb-3">
+                    <div className="col-md-12 mb-5">
                         <div className="form-group">
                             <label className="text-white">MESSAGE</label>
-                            <input
+                            <textarea
                                 type="text"
                                 placeholder="Enter Message" 
                                 value={Message}
-                                class="form-control mb-2" id="message" cols="30" rows="5"
+                                className="form-control mb-2" id="message" cols="30" rows="6"
                                 onChange={(e) => setMessage(e.target.value)}
-                            />
+                            ></textarea>
                         </div>
                     </div>
 
                     <div className="col-md-12">
                         <div className="form-group">
-                            <input type="submit" value="SUBMIT" class="btn btn-primary form-button w-100"/>
+                            <a type="submit" className="d-block py-3 text-center w-75 m-auto">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Submit
+                            </a>
                             <div className="submitting sf-hidden"></div>
                         </div>
                     </div>
 
                 </div>
+               
             </form>
         </div>
     )

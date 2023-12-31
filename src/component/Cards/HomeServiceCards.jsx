@@ -3,7 +3,7 @@ import {ServiceData} from '../Items/ServicesItems.jsx'
 export const HomeServiceCards = () => {
     return(
         <div className='row m-auto pt-4 pt-lg-5 d-flex justify-content-center justify-content-lg-start'>
-            {ServiceData.slice(0, 4).map((data, index) => (
+            {ServiceData.slice(0, 3).map((data, index) => (
                 <div  key={index} className="col-12 col-md-6 col-lg-4 mb-3">
                     <div className="card bg-transparent rounded overflow-hidden">
                         <div className='' style={{height: "300px"}}>

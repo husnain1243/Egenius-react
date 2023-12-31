@@ -11,7 +11,7 @@ export const Advisory = () => {
                 </div>
                 <AdCards/>
                 <li className="text-center text-decoration-none w-25 m-auto mt-4 py-2">
-                  <Link to="/blog" className="link btn btn-primary form-button w-100">View More</Link>
+                  <Link to="/projects" className="link btn btn-primary form-button w-100">View More</Link>
                 </li>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import { HomeServiceCards } from "../Cards/HomeServiceCards"
+import { Link } from "react-router-dom";
 
 export const HomeService = () => {
     return(
@@ -13,6 +14,9 @@ export const HomeService = () => {
                     <HomeServiceCards/>
                 </div>
             </div>
+            <li className="text-center text-decoration-none w-25 m-auto mt-4 py-2">
+                  <Link to="/services" className="link btn btn-primary form-button w-100">View More</Link>
+            </li>
         </div>
     )
 }
